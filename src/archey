@@ -254,10 +254,9 @@ class CITY:
             self.o = self.r.json()
             pathlib.Path('~/.config/archey').mkdir(parents=True, exist_ok=True)
             if os.path.exists('~/.config/archey/config.json'):
-                old = open('~/.config/archey/config.json', 'r')
-                old_json = json.load(old)
-                if old_json['ip'] == self.o['ip']:
-                    self.value = old_json['country_iso'] + ', ' + old_json['city']
+                old = json.load(open('~/.config/archey/config.json', 'r'))
+                if old['ip'] == self.o['ip']:
+                    self.value = old['country_iso'] + ', ' + old['city']
             self.value = self.o['country_iso'] + ', ' + self.o['city']
             with open('~/.config/archey/config.json', 'w+') as f:
                 f.write(self.r.text)
