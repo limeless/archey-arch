@@ -25,6 +25,28 @@ An archey script for Arch linux with Geo/IP supported.
  #'                         `#  IP: 111.222.333.444
 
 ```
+## Download
+The latest stable version is [0.3.0](https://github.com/limeless/archey-arch/archive/0.3.0.tar.gz)
+
+## Installation
+**NOT RECOMMEND**
+Simply replace the oringinal archey file.
+
+```sh
+$ which archey
+/usr/bin/archey
+$ sudo cp src/archey /usr/bin/archey
+```
+
+**RECOMMEND**
+Copy `src/archey` to `/usr/bin/` with different name.
+
+```sh
+$ which archey
+/usr/bin/archey
+$ sudo cp src/archey /usr/bin/archey-ip
+```
+to run it, just simply use `archey-ip` instead of `archey`
 
 ## License
 ![GPLV3](https://www.gnu.org/graphics/gplv3-with-text-84x42.png)
