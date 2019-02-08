@@ -1,4 +1,4 @@
-# Archey for OS X
+# Archey with Geo/IP.
 An archey script for Arch linux with Geo/IP supported. 
 
 > I'm really bad at writing readme so beer with me.
