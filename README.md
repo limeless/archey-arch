@@ -27,15 +27,17 @@ An archey script for Arch linux with Geo/IP supported.
 ```
 ## How it work
 By the first time you run the script, it will check if the config file is present, which located at `~/.config/archey/config.json`.
-If config file doesn't exist, it will create with result from [ifconfig.co/json](https://ifconfig.co) and storege it.
-If exist, script will compare IP from `config.json` with `ifconfig.co`'s result,
+
+If config file doesn't exist, it will create with result from [ifconfig.co](https://ifconfig.co) and storege it.
+
+If exist, script will compare IP from `config.json` with [ifconfig.co](https://ifconfig.co)'s result,
 if IP not as same as `config.json`, it will update automatically.
 
 ### What happend if no internet connection ?
 Result will be '--' on both sections. This will happend both with no internet connection and request timeout.(5 sec)
 
 ### IP v4, v6 ?
-As `ifconfig.co` preference, IPv6 will preferred.
+As [ifconfig.co](https://ifconfig.co) preference, IPv6 will be preferred.
 
 
 ## Download
