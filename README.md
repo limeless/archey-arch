@@ -30,6 +30,7 @@ The latest stable version is [0.3.0](https://github.com/limeless/archey-arch/arc
 
 ## Installation
 **NOT RECOMMEND**
+
 Simply replace the oringinal archey file.
 
 ```sh
@@ -39,6 +40,7 @@ $ sudo cp src/archey /usr/bin/archey
 ```
 
 **RECOMMEND**
+
 Copy `src/archey` to `/usr/bin/` with different name.
 
 ```sh
@@ -52,4 +54,4 @@ to run it, just simply use `archey-ip` instead of `archey`
 ![GPLV3](https://www.gnu.org/graphics/gplv3-with-text-84x42.png)
 This tool is protected by the [GNU General Public License v3](http://www.gnu.org/licenses/gpl-3.0.html).
 
-Copyright [LeBurger/limeless](https://leburger.gitlab.io) 2019
+Copyright [limeless](https://leburger.gitlab.io) 2019
