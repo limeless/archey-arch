@@ -1,7 +1,8 @@
-# Archey with Geo/IP.
-An archey script for Arch linux with Geo/IP supported. 
+# Archey with Geo/IP support.
+An archey script for Arch linux with Geo/IP support. 
 
 > I'm really bad at writing readme so beer with me.
+>
 > will try to add more in the future.
 
 ```sh
@@ -34,9 +35,9 @@ If exist, script will compare IP from `config.json` with [ifconfig.co](https://i
 if IP not as same as `config.json`, it will update automatically.
 
 ### What happend if no internet connection ?
-Result will be '--' on both sections. This will happend both with no internet connection and request timeout.(5 sec)
+Result will be `'--'` on both sections. This will happend both with no internet connection and request timeout.`(5 sec)`
 
-### IP v4, v6 ?
+### IPv4, IPv6 ?
 As [ifconfig.co](https://ifconfig.co) preference, IPv6 will be preferred.
 
 
